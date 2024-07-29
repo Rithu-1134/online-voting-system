@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right2Vote</title>
+    <link rel="icon" href="images/symbol.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-message">
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Welcome to Right2Vote!</h1>
+        <p>Your voice matters. Cast your vote and make a difference.</p>
+        <img src="images/tn.jpg" alt="images">
+    </div>
+    
+    <div class="casting">
+        <form action="index2.html" method="post">
+            <!-- Voter Authentication -->
+            <input type="text" name="username" placeholder="Name" required>
+            <input type="password" name="ID" placeholder="Aadhar/Voter" required>
+            
+            <!-- Candidate Selection -->
+            <h3>Choose Your Candidate:</h3>
+            
+            <div class="candidate">
+                <input type="radio" id="candidate2" name="candidate" value="candidate2">
+                <label for="candidate2">
+                    <img src="images/can1.jpg" alt="Candidate 2">
+                    <img src="images/dmksyb.jpg" alt="Party Symbol 2">
+                    <h2>Dravida Munnetra Kazhagam(DMK)</h2>
+                    <h3>Muthuvel Karunanidhi Stalin</h3>
+                </label>
+            </div>
+            
+            <div class="candidate">
+                <input type="radio" id="candidate1" name="candidate" value="candidate1">
+                <label for="candidate1">
+                    <img src="images/anna.jpg" alt="Candidate 1">
+                    <img src="images/bjpsymb.jpg" alt="Party Symbol 1">
+                    <h2>Bharatiya Janata Party (BJP)</h2>
+                    <h4>K Annamalai</h4>
+                </label>
+            </div>
+            
+            <div class="candidate">
+                <input type="radio" id="candidate3" name="candidate" value="candidate3">
+                <label for="candidate3">
+                    <img src="images/tvk.jpg" alt="Candidate 3">
+                    <img src="images/tvk symbol.png" alt="Party Symbol 3">
+                    <h2>Tamilaga Vettri Kazhagam(TVK)</h2>
+                    <h4>Joseph Vijay Chandrasekhar</h4>
+                </label>
+            </div>
+            
+            <div class="candidate">
+                <input type="radio" id="candidate4" name="candidate" value="candidate4">
+                <label for="candidate4">
+                    <img src="images/mnmcan.jpg" alt="Candidate 4">
+                    <img src="images/mnmsym.png" alt="Party Symbol 4">
+                    <h2>Makkal Needhi Maiam(MNM)</h2>
+                    <h4>Kamal Haasan</h4>
+                </label>
+            </div>
+            
+            <div class="candidate">
+                <input type="radio" id="candidate5" name="candidate" value="candidate5">
+                <label for="candidate5">
+                    <img src="images/admk.jpg" alt="Candidate 5">
+                    <img src="images/admk symb.jpg" alt="Party Symbol 5">
+                    <h2>Anna Dravida Munnetra Kazhagam(ADMK)</h2>
+                    <h4>Edappadi K. Palaniswami</h4>
+                </label>
+            </div>
+            
+            <a href="index2.html"><button >Cast Your Vote</button></a>
+        </form>
+    </div>
+</body>
+</html>
